@@ -1,0 +1,91 @@
+*
+{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+  font-family:Candara;
+}
+a
+{
+  text-decoration:none;
+}
+body
+{
+  max-width:1920px;
+  min-width:720px;
+  display:block;
+  overflow:auto;
+  background: linear-gradient(270deg,red,blue);
+  background-size: 400% 400%;
+-webkit-animation: AnimationName 20s ease infinite;
+animation: AnimationName 20s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+
+#head
+{
+  max-width:1920px;
+  min-width:720px;
+  display:block;
+  background-color:white;
+  overflow: auto;
+  }
+#head div
+{
+  display:inline-block;
+}
+#head #logo
+{
+  float:left;
+  color:#212121;
+  font-size:30px;
+  transition-duration:0.5s;
+  padding:4.5px;
+}
+#head #lnk
+{
+  float:right;
+}
+#head #lnk ul
+{
+  list-style:none;
+}
+#head #lnk ul li
+{
+  display:inline-block;
+  float:left;
+  border-left:1px solid #e1e1e1;
+  border-top:1px solid #e1e1e1;
+  border-bottom:1px solid #e1e1e1;
+  border-radius:3px;
+}
+#head #lnk a
+{
+  display:block;
+  background-color:#ffffff;
+  color:#212121;
+  font-size:15px;
+  padding:10px;
+  border:3px solid #ffffff;
+  border-radius:5px;
+  transition-duration:0.3s;
+}
+#head #lnk a:hover
+{
+  background-color:#d8d8d8;
+}
+#head #lnk a:active
+{
+  background-color:#696969;
+  color:white;
+}
